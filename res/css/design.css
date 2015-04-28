@@ -1,0 +1,143 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 1% 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+	.navbar-nav > li:not(:last-child) {
+		border-right:1px solid #f2f2f2;
+	}
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+	
+	.vert-center{
+		display: table-cell;
+		float: none;
+		height: 29em;
+		text-align:center;
+		vertical-align: middle;
+	}
+}
+
+a {
+	color: #0e0f42 !important;
+}
+
+a:hover {
+	color: #a72020 !important;
+}
+
+img {
+	max-width: 100%;
+}
+
+li {
+list-style-type: square;
+}
+
+.intro-section {
+    height:auto;
+    min-height: 100%;
+    padding-top: 150px;
+	padding-bottom: 100px;
+    text-align: center;
+    
+	background: white url(../img/fond_mains.jpg) no-repeat 50% 0 fixed; 
+	background-size: cover;
+}
+
+.event-section {
+	height:auto;
+    min-height: 100%;
+    padding-top: 150px;
+	padding-bottom: 100px;
+    text-align: center;
+    
+	background: #eee url(../img/fond_logo_c&you_blanc.png) no-repeat center center fixed;
+	background-size: contain;
+}
+
+.event-section .container {
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.acces-section {
+    height:auto;
+    min-height: 100%;
+    padding-top: 150px;
+	padding-bottom: 100px;
+    text-align: center;
+	
+	background: white url(../img/fond_logo_c&you.png) no-repeat center center fixed;
+	background-size: contain;
+}
+
+.quiSommesNous-section {
+    height:auto;
+    min-height: 100%;
+    padding-top: 150px;
+	padding-bottom: 50px;
+    text-align: center;
+    
+	background: #eee url(../img/fond_logo_c&you_blanc.png) no-repeat center center fixed;
+	background-size: contain;
+}
+
+#photoEquipe
+{
+	background: url(../img/photo_equipe.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height:auto;
+	margin: 0 auto;
+	width:100%;
+	position:relative;
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	padding:15% 0;
+}
+
+#map_canvas
+{
+	width: 100%;
+	height: 300px;
+}
+
+.contact-section {
+    height: auto;
+	min-height:90%;
+    padding-top: 150px;
+	padding-bottom: 100px;
+    text-align: center;
+
+	background: white url(../img/fond_logo_c&you.png) no-repeat center center fixed;
+	background-size: contain;
+}
+
+body > footer {
+	margin-top:-5%;
+}
+
+#footer {
+	margin-top:5px;
+	padding: 0.5% 0 0.5% 1%;
+	background:#eee;
+}
+
+.justify {
+	text-align: justify;
+}
+
